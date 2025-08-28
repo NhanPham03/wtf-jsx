@@ -1,13 +1,11 @@
 {
   "name": "wtf-jsx",
   "version": "1.0.0",
-  "description": "",
+  "description": "Barebones example of a React-like JSX renderer",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src --out-dir dist"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
